@@ -3,7 +3,7 @@ import io from "socket.io-client";
 import "./App.css";
 
 let socket;
-const CONNECTION_PORT = "localhost:3001/";
+const CONNECTION_PORT = "https://s4hchat-app.herokuapp.com/";
 
 function App() {
   //Before Login
